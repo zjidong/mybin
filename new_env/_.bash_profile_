@@ -1,0 +1,19 @@
+### ~/.bash_profile ###
+
+export PATH=.:~/mybin:$PATH
+export CLICOLOR=1
+export LSCOLORS=ExghCxDxcxegedabagacad
+export PS1="\[\e]2; \w\a \e[31;4m\]\w\e[32;0m\] >\[\e[0m\] "
+
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -al'
+alias unzip="tar -zxvf"
+alias da='date "+%Y-%m-%d %A    %T %Z"'
+alias grep='grep --color'
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.." 
